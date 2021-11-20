@@ -36,7 +36,7 @@ paper.addEventListener('click', function (e) {
 scissors.addEventListener('click', function (e) {
   var value = randomChoice()
   your_choice.innerHTML = 'Scissors'
-  if (value === 'Scissors') {
+  if (value === 'Scissors') {as
     result.innerHTML = 'It is a draw'
   } else if (value === 'Rock') {
     result.innerHTML = 'OOps you lose'
