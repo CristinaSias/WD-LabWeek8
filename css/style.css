@@ -63,7 +63,7 @@ body {
   color: white;
 }
 .result {
-  color: rgb(246, 135, 8);
+  color: #c9db2f;
   text-transform: uppercase;
 }
 
@@ -72,4 +72,15 @@ body {
 }
 #computer-choice {
   color: #c9db2f;
+}
+#chances {
+  width: fit-content;
+  align-items: center;
+  margin: auto;
+  border-style: solid;
+  border-color: #c9db2f;
+  padding: 0px 5px;
+}
+#game-over {
+  display: none;
 }
